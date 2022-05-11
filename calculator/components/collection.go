@@ -56,5 +56,9 @@ func (c *Components) GetTransP(phoneme string, stateX, stateY int) float64 {
 }
 
 func (c *Components) GetConnectionP(w1, w2 string) float64 {
+	// TODO: 謎実装いる?
+	//if w1 == "、+補助記号" || w2 == "、+補助記号" {
+	//	return 0
+	//}
 	return c.arpa.GetConnectP(w1, w2) * 14
 }

@@ -37,7 +37,9 @@ func (c *Calculator) Calculate() {
 		c.calcNextTransP(i, limit)
 		c.calcConnectP(i, limit)
 	}
+}
 
+func (c *Calculator) PrintResult() {
 	result := make([]*cell, 0)
 	for _, container := range c.containers {
 		if container.entry == "</s>" {
