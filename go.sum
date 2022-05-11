@@ -1,0 +1,10 @@
+github.com/yut-kt/goft v0.1.0 h1:vCAeHyADiXDmgGnr8STckid83I5Agvl4oZd2G/4ljqY=
+github.com/yut-kt/goft v0.1.0/go.mod h1:Vg9d313p8lyMQt7hBs7VSWKxeiVEyLPTgfpJl8EC0/A=
+github.com/yut-kt/gomfcc v0.0.0-20220503093809-d81a01b6bf53 h1:st7vJE2WK0LI2bs+X1fOdSPtBzBHFwnJSXOCw6tKeJA=
+github.com/yut-kt/gomfcc v0.0.0-20220503093809-d81a01b6bf53/go.mod h1:lA8GiHQrKJ65c5TTJmY4iS4t5rv3p0WmNcpQDLyHTWc=
+github.com/yut-kt/gostruct v1.0.0 h1:rDNBsDYF2FrrO/bnLdnqg3Hnw4Ng8/MXAEUwPaF3ixM=
+github.com/yut-kt/gostruct v1.0.0/go.mod h1:t+4HF2mXhCvXoEePr2heZ6W1vzFFDkIVeEE+JWlOrlU=
+github.com/yut-kt/gowave v0.1.4 h1:dNwWMsPOCarG8VzcVDw27CtCo7wmvV9ZTFQf3eRzVhM=
+github.com/yut-kt/gowave v0.1.4/go.mod h1:h39Ffiei93YcQmWTvKfXgezspn2x87robb2bCS2NqcQ=
+github.com/yut-kt/gowindow v0.1.7 h1:cHch1I8E2tBbC9t6vyY8h8mrKEiZUrtXdRSJY2rMl6s=
+github.com/yut-kt/gowindow v0.1.7/go.mod h1:cVaGb9r0J2+NgVBb1UEJ3rYQ4CkzXXoHfX1JqWAciBk=
