@@ -76,10 +76,12 @@ func (c *Calculator) calcOutputP(frameIndex int) float64 {
 	max := -math.MaxFloat64
 	for _, container := range c.containers {
 		for i := 0; i < len(container.table[0]); i++ {
-			if container.table[frameIndex][i] != nil {
-				container.table[frameIndex][i].p += c.components.GetOutputP(c.features[frameIndex], container.phonemeColumns[i], container.stateIndexColumns[i])
-				if container.table[frameIndex][i].p > max {
-					max = container.table[frameIndex][i].p
+			if cell := container.table[frameIndex][i]; cell != nil {
+				phoneme := container.phonemeColumns[i]
+				stateIndex := container.stateIndexColumns[i]
+				cell.p += c.components.GetOutputP(c.features[frameIndex], phoneme, stateIndex)
+				if cell.p > max {
+					max = cell.p
 				}
 			}
 		}
