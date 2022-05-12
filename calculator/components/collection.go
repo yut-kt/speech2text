@@ -28,14 +28,14 @@ func (c *Components) GetWords() []*htkdict.Word {
 
 func (c *Components) GetNumState(phoneme string) int {
 	if phoneme == "silB" || phoneme == "silE" {
-		phoneme = "sp"
+		phoneme = "sil"
 	}
 	return c.mmf.Phonemes[phoneme].NumState
 }
 
 func (c *Components) GetOutputP(feature []float64, phoneme string, stateIndex int) float64 {
 	if phoneme == "silB" || phoneme == "silE" {
-		phoneme = "sp"
+		phoneme = "sil"
 	}
 	stateInfo := c.mmf.Phonemes[phoneme].States[stateIndex]
 	twoPi := 2.0 * math.Pi
@@ -51,7 +51,7 @@ func (c *Components) GetOutputP(feature []float64, phoneme string, stateIndex in
 
 func (c *Components) GetTransP(phoneme string, stateX, stateY int) float64 {
 	if phoneme == "silB" || phoneme == "silE" {
-		phoneme = "sp"
+		phoneme = "sil"
 	}
 	return c.mmf.Phonemes[phoneme].TransP[stateX][stateY]
 }
