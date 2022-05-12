@@ -2,6 +2,7 @@ package htkdict
 
 import (
 	"bufio"
+
 	"github.com/yut-kt/speech2text/util"
 )
 

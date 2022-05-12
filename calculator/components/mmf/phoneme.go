@@ -2,10 +2,11 @@ package mmf
 
 import (
 	"bufio"
-	"github.com/yut-kt/speech2text/util"
 	"log"
 	"strconv"
 	"strings"
+
+	"github.com/yut-kt/speech2text/util"
 )
 
 type Phoneme struct {

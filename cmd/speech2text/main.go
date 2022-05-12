@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+
 	"github.com/yut-kt/speech2text/calculator"
 	"github.com/yut-kt/speech2text/calculator/components"
 	"github.com/yut-kt/speech2text/util"
@@ -30,5 +31,4 @@ func main() {
 	c := calculator.NewCalculator(collection, features)
 	c.Calculate()
 	c.PrintResult()
-
 }

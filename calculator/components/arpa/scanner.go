@@ -2,10 +2,11 @@ package arpa
 
 import (
 	"bufio"
-	"github.com/yut-kt/gostruct"
-	"github.com/yut-kt/speech2text/util"
 	"log"
 	"strings"
+
+	"github.com/yut-kt/gostruct"
+	"github.com/yut-kt/speech2text/util"
 )
 
 func scanArpa(scanner *bufio.Scanner) (pMap map[string]float64, bMap map[string]float64, map2D gostruct.Map2Dim[string, string, float64]) {

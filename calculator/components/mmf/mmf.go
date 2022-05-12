@@ -2,9 +2,10 @@ package mmf
 
 import (
 	"bufio"
-	"github.com/yut-kt/speech2text/util"
 	"regexp"
 	"strings"
+
+	"github.com/yut-kt/speech2text/util"
 )
 
 type MMF struct {

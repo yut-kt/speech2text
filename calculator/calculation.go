@@ -2,9 +2,10 @@ package calculator
 
 import (
 	"fmt"
-	"github.com/yut-kt/speech2text/calculator/components"
 	"log"
 	"math"
+
+	"github.com/yut-kt/speech2text/calculator/components"
 )
 
 type Calculator struct {
