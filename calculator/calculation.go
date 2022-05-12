@@ -46,7 +46,7 @@ func (c *Calculator) PrintResult() {
 		if container.entry == "</s>" {
 			c := container.table[len(container.table)-1][len(container.table[0])-1]
 			result = append(result, c)
-			for c = c.backcell; c != nil; c = c.backcell {
+			for c = c.backCell; c != nil; c = c.backCell {
 				if result[len(result)-1].origin != c.origin {
 					result = append(result, c)
 				}

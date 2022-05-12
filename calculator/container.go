@@ -15,9 +15,9 @@ func NewContainer(table [][]*cell, phonemeColumns []string, stateIndexColumns []
 type cell struct {
 	origin   *Container
 	p        float64
-	backcell *cell
+	backCell *cell
 }
 
 func newCell(origin *Container, p float64, backcell *cell) *cell {
-	return &cell{origin: origin, p: p, backcell: backcell}
+	return &cell{origin: origin, p: p, backCell: backcell}
 }

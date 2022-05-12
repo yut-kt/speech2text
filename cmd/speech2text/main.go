@@ -11,7 +11,7 @@ import (
 func main() {
 	collection := components.NewComponents(
 		"storage/defs/bccwj.60k.tri.arpa",
-		"storage/defs/bccwj.60k.htkdic.small",
+		"storage/defs/bccwj.60k.htkdic.midium",
 		"storage/defs/hmmdefs",
 	)
 
