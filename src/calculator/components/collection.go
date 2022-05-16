@@ -3,9 +3,9 @@ package components
 import (
 	"math"
 
-	"github.com/yut-kt/speech2text/calculator/components/arpa"
-	"github.com/yut-kt/speech2text/calculator/components/htkdict"
-	"github.com/yut-kt/speech2text/calculator/components/mmf"
+	"github.com/yut-kt/speech2text/src/calculator/components/arpa"
+	"github.com/yut-kt/speech2text/src/calculator/components/htkdict"
+	"github.com/yut-kt/speech2text/src/calculator/components/mmf"
 )
 
 type Components struct {

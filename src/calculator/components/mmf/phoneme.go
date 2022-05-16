@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/yut-kt/speech2text/util"
+	"github.com/yut-kt/speech2text/src/util"
 )
 
 type Phoneme struct {

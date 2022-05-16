@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/yut-kt/speech2text/util"
+	"github.com/yut-kt/speech2text/src/util"
 )
 
 type MMF struct {

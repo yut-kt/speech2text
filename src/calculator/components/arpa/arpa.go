@@ -4,8 +4,9 @@ import (
 	"bufio"
 	"log"
 
+	"github.com/yut-kt/speech2text/src/util"
+
 	"github.com/yut-kt/gostruct"
-	"github.com/yut-kt/speech2text/util"
 )
 
 type Arpa struct {

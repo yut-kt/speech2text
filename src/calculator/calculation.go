@@ -5,7 +5,7 @@ import (
 	"log"
 	"math"
 
-	"github.com/yut-kt/speech2text/calculator/components"
+	"github.com/yut-kt/speech2text/src/calculator/components"
 )
 
 type Calculator struct {

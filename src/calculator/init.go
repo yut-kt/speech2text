@@ -1,7 +1,7 @@
 package calculator
 
 import (
-	"github.com/yut-kt/speech2text/calculator/components"
+	"github.com/yut-kt/speech2text/src/calculator/components"
 )
 
 func newContainers(frameNum int, components *components.Components) []*Container {

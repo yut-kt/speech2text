@@ -3,7 +3,7 @@ package htkdict
 import (
 	"bufio"
 
-	"github.com/yut-kt/speech2text/util"
+	"github.com/yut-kt/speech2text/src/util"
 )
 
 type Word struct {

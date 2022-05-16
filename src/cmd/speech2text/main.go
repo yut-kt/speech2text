@@ -3,9 +3,9 @@ package main
 import (
 	"bufio"
 
-	"github.com/yut-kt/speech2text/calculator"
-	"github.com/yut-kt/speech2text/calculator/components"
-	"github.com/yut-kt/speech2text/util"
+	"github.com/yut-kt/speech2text/src/calculator"
+	"github.com/yut-kt/speech2text/src/calculator/components"
+	"github.com/yut-kt/speech2text/src/util"
 )
 
 func main() {

@@ -3,8 +3,9 @@ package feature
 import (
 	"log"
 
+	"github.com/yut-kt/speech2text/src/util"
+
 	"github.com/yut-kt/gowave"
-	"github.com/yut-kt/speech2text/util"
 )
 
 func ReadWave(waveFile string) ([]float64, int) {
